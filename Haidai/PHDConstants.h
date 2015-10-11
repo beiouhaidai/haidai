@@ -8,6 +8,11 @@
 #ifndef Haidai_PHDConstants_h
 #define Haidai_PHDConstants_h
 
+static NSString * const PHDApplication_ID = @"fbyVfv4V0LtX2tadvJ0Qp33YoI5DxLttvnZq0U9A";
+static NSString * const PHDClient_KEY = @"leDwwQY7T3VKOZqku09Q0YXavEzGyVJipXm6hp6L";
+
+
+
 static double PHDFeetToMeters(double feet) {
     return feet * 0.3048;
 }

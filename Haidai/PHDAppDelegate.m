@@ -16,9 +16,6 @@
 #import "PHDSettingsViewController.h"
 #import "PHDWallViewController.h"
 
-#define APPLICATION_ID @"EuhW31pLOtYoSUGVYXfeMQII57AbQ1hVlz3szVxE"
-#define CLIENT_KEY @"J5UmUpWbgkpGOSazgCojurkGs4xj7GZpLtDA1ogX"
-
 @interface PHDAppDelegate ()
 <PHDLoginViewControllerDelegate,
 PHDWallViewControllerDelegate,
@@ -36,7 +33,7 @@ PHDSettingsViewControllerDelegate>
 
     // ****************************************************************************
     // Parse initialization
-    [Parse setApplicationId:APPLICATION_ID clientKey:CLIENT_KEY];
+    [Parse setApplicationId:PHDApplication_ID clientKey:PHDClient_KEY];
     // ****************************************************************************
 
     // Set the global tint on the navigation bar
