@@ -225,7 +225,6 @@
 				81B86B5F1995802D00222BAB /* Resources */,
 				E56E83FD14D72E1100E856AB /* Supporting Files */,
 			);
-			name = Haidai;
 			path = Haidai;
 			sourceTree = "<group>";
 		};
@@ -319,6 +318,7 @@
 				E56E83EF14D72E1100E856AB /* Frameworks */,
 				E56E83F014D72E1100E856AB /* Resources */,
 				7F29349023072BACE6F6F13A /* Copy Pods Resources */,
+				C31661F5D6D6756C3A137074 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -403,6 +403,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31661F5D6D6756C3A137074 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
