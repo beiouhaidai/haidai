@@ -17,7 +17,7 @@
 #import "PHDWallViewController.h"
 
 #define APPLICATIONID @"abc"
-#define CLIENTKEY @"ck1"
+#define CLIENTKEY @"ck2"
 
 @interface PHDAppDelegate ()
 <PHDLoginViewControllerDelegate,
